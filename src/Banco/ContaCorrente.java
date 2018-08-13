@@ -9,7 +9,7 @@ package Banco;
  *
  * @author rafael
  */
-public class conta {
+public class ContaCorrente {
    private int numero;
    private String nomeCliente;
    private double saldo;

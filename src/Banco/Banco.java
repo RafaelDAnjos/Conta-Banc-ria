@@ -17,8 +17,8 @@ public class Banco {
     public static void main(String[] args) {
         // TODO code application logic here
         for(;;){
-            conta novaconta;
-            novaconta = new conta();
+            ContaCorrente novaconta;
+            novaconta = new ContaCorrente();
             
         }
     }
