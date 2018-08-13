@@ -15,7 +15,13 @@ public class ContaCorrente {
    private double saldo;
    private int agencia;
    private double limite;
-
+    public ContaCorrente(String numconta,String nomeCliente,String saldo, String agencia,String limite){
+        this.numero = Integer.parseInt(numconta);
+        this.nomeCliente = nomeCliente;
+        this.agencia = Integer.parseInt(agencia);
+        this.saldo = Double.parseDouble(saldo);
+        this.limite = Double.parseDouble(limite);
+    }
     public int getNumero() {
         return numero;
     }
