@@ -61,5 +61,7 @@ public class ContaPoupanca {
     public void setAgencia(int agencia) {
         this.agencia = agencia;
     }
-    
+    public void imprimesaldo(){
+        System.out.println("O saldo da sua conta poupança é: "+this.saldo);
+    }
 }

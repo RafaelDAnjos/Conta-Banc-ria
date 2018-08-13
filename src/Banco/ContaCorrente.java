@@ -68,6 +68,7 @@ public class ContaCorrente {
     public void setLimite(double limite) {
         this.limite = limite;
     }
-   
-   
+    public void imprimesaldo(){
+        System.out.println("O saldo na sua Conta Corrente é: "+this.saldo);
+    }
 }
